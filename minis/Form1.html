@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Form.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Order Page</title>
+    <style>
+        .subs button {
+            font-size: 15px; 
+            width: 200px; 
+            height: 28px;
+            border-radius: 5%;
+            margin-left: 40px;
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        SNACK
+        <div class="nav">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <a href="Items.php"  style="text-decoration:none;color:white;color:white">Items</a>
+        </div>
+    </div>
+    <h1>Order Details</h1>
+    <div class="Item">
+        <form id="orderForm" method="post" action="form1.php">
+            <label for="fullname">Name:</label>
+            <input type="text" placeholder="Name" id="name" name="fullname" required/><br><br/>
+            
+            <label for="phone">Phone:</label>
+            <input type="tel" placeholder="Phone Number" id="contact" name="contact" required/><br><br/>
+            
+            <div>
+                <label>Items:</label><br>
+                <input type="checkbox" id="pizza1" name="pizza1" data-price="300">
+                <label for="pizza1">Chicken Burger: ₹200</label>
+                <input type="number" id="quantity1" name="quantity1" min="0" placeholder="Quantity" value="0" style="width: 50px;" /><br>
+                
+                <input type="checkbox" id="pizza2" name="pizza2" data-price="220">
+                <label for="pizza2">Cheesy Veg Burger: ₹100</label>
+                <input type="number" id="quantity2" name="quantity2" min="0" placeholder="Quantity" value="0" style="width: 50px;" /><br><br/>
+            </div>
+            
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required/><br><br/>
+            
+            <div class="H">
+                Total: ₹<span id="totalPrice" name="totalPrice">0</span><br>
+            </div>
+            <button type="button" onclick="calculateTotal()">Total Price</button><br><br/>
+            <div class="subs">
+                <button type="submit">Order</button>
+            </div>
+        </form>
+    </div>
+    <script src="First.js"></script>
+</body>
+</html>

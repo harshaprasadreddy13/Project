@@ -1,0 +1,108 @@
+.Box1,.Box2,.Box3,.Box4,.Box5,.Box6,.Box7,.Box8{
+    border:2px solid whitesmoke;
+    height:380px;
+    width:270px;
+    margin-bottom:10px;
+    margin-top:20px;
+    border-radius:11px;
+    background-color:#F1F3F3;
+}
+.Box1:hover,.Box2:hover,.Box3:hover,.Box4:hover,.Box5:hover,.Box6:hover,.Box7:hover,.Box8:hover{
+    box-shadow: 0 0 10px #306e99, 0 0 10px #00a6bf, 0 0 10px #2cdcbd;
+    transition: 1ms;
+    transform:scale(1.02);
+    cursor: pointer;
+}
+.Pizz,.Burger,.Momo,.Fries,.Rolls,.Gobi,.Noodles,.Sandwich
+{
+    padding:7px;
+    border:1px solid whte;
+}
+.btns{
+    border: 2px solid white;
+    border-radius:30px;
+    height: 35px;
+    width:210px;
+    background-color: green;
+    text-align: center;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.btns:hover{
+    box-shadow:2px 2px 2px black;
+    transition: 1ms;
+    transform:scale(1.02);
+}
+h1{
+    margin-top:2px;
+    margin-bottom:3px;
+    color:black;
+    margin-left:80px;
+}
+ul{
+    color:black;
+    margin-top:3px;
+    margin-bottom:0px;
+}
+p{
+    margin-left:20px;
+    margin-bottom:12px;
+    margin-top:8px;
+    color:black;
+}
+.flex-container {
+    margin-top: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: white;     
+    color:black;                                 
+}
+h2{
+    color:white;
+    font-size:40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+    height:30px;
+}
+img{
+    opacity:2;
+    border:2px solid white;
+    border-radius: 10px;
+    margin-top:5px;
+}
+.W{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: darkslategray;  
+    text-align: center;
+    font-size: 40px;      
+    color: white;  
+    text-align:center;   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;                      
+}
+.c{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Mat{
+    padding: 25px;
+    background: linear-gradient(90deg, #1de2dd,#66b46d,#8e7d1a);
+}
+h6{
+    font-size: 70px;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h7{
+    font-size: 40px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navv{
+    height:30px;
+    margin-bottom:17px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

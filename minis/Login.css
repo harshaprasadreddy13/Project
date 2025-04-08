@@ -1,0 +1,50 @@
+body{
+    background-color: white;
+    background: url(https://www.foodiesfeed.com/wp-content/uploads/2023/06/plate-of-noodles-with-shrimps.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Container{
+    text-align:center;
+    border:2px solid white;
+    width:300px;
+    margin-left:480px;
+    margin-top:100px;
+    height:300px;
+    border-radius:10px;
+}
+.Log{
+    font-size: 30px;
+    color:white;
+}
+.user{
+    font-size:20px;
+    color:white;
+}
+.Pass{
+    font-size:20px;
+    color:white;
+}
+button{
+    background-color: red;
+    color:white;
+    border: 1px solid black;
+    border-radius: 10px;
+    width:170px;
+    height:25px;
+}
+.forgot{
+    margin-top:30px;
+    margin-right:50px;
+    margin-left:50px;
+    font-size: 20px;;
+}
+.navbar{
+    background-color: darkslategray;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:33px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
